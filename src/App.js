@@ -1,14 +1,16 @@
 import './App.css';
 import Sidebar  from './Sidebar';
+import Feed from './Feed';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Here I am trying To Build Twiter-Clone</h1>
+    
+    <div className="app">
       {/* sidebar */}
       <Sidebar />
 
       {/* feed */}
+      <Feed />
 
 
 

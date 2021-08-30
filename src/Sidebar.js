@@ -18,7 +18,7 @@ function Sidebar() {
         <div className="sidebar">
             {/* icon option */}
 
-            <Twittericon />
+            <Twittericon className="sidebar__twitterIcon"/>
 
             <SidebarOption active Icon={HomeIcon} text="Home"/>
             <SidebarOption Icon={SearchIcon} text="Explore"/>
@@ -29,7 +29,7 @@ function Sidebar() {
             <SidebarOption Icon={PermIdentityIcon} text="Profile"/>
             <SidebarOption Icon={MoreHorizIcon} text="More"/>
 
-            <Button variant="outlined" className="sidebar_tweet" fullWidth>Tweet</Button>
+            <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
             {/* icon option */}
 
             
